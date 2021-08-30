@@ -1,0 +1,20 @@
+form order baru
+
+cabang toko ==> ambil dari produk sebelumnya 
+petugas kasir ==> ambil dari auth login() 
+nomor pemesanan diisi sendiri
+order pesanan ==> ambil dari produk berdasarkan cabang toko 
+catatan ==> diisi sendiri 
+metode pembayaran ==> ambil dari menu payment 
+jumlah ==> disi sendiri berdasarkan number atau integer 
+subtotal ==> hasil perkalian dari jumlah produk dengan harga jual 
+nama pembeli ==> diisi sendiri 
+nomor telepon ==> disii sendiri 
+
+form kas 
+penangggung jawab ==> ambil dari auth login()
+cabang ==> ambil dari toko lokasi saat ini 
+jenis penerimaan ==> hanya kredit ( sebagai pengeluaran )
+keperluan ==> hanya 2 dibikin opsi (keperluan kantor, setoran ke pusat)
+nominal ==> masukkan rupiah 
+bukti ==> file gambar
